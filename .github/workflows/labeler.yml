@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        repository: "GregTechCEu/GithubActions"
+        repository: "qiuye2024github/GithubActions"
         path: '.external-config'
         ref: 'main'
     - uses: actions/labeler@v5
